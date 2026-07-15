@@ -1,45 +1,40 @@
 # Kyle Brierley
 
-Technical product leader focused on AI deployment, agent workflows, customer-data platforms, APIs, and developer tooling.
+Technical product leader building agent workflows, AI deployment systems, developer tools, and enterprise integrations.
 
-I like work where product judgment and implementation detail have to meet: turning ambiguous customer problems into scoped systems, building enough of the workflow to make the tradeoffs real, and leaving behind artifacts that teams can operate, evaluate, and improve.
-
-## Current Focus
-
-- AI-assisted deployment and support workflows.
-- Human-in-the-loop agent systems with clear approval boundaries.
-- Enterprise data and integration patterns.
-- Practical developer tools, validation loops, and documentation that make systems easier to trust.
+I work where product judgment and implementation detail meet: turning ambiguous customer problems into scoped systems, making approval and validation boundaries explicit, and leaving behind artifacts that teams can operate and improve.
 
 ## Featured Work
 
-### Support Ticket Practice
+### [TheTechStack](https://www.thetechstack.com/)
 
-Next.js support workbench for practicing AI-assisted deployment engineering: scoped changes, ticket investigation, validation, and review discipline.
+I built and operate TheTechStack, an evidence-backed research product documenting what companies actually run.
 
-https://github.com/KyleBrierley/support-ticket-practice
+Its human-approved agent workflow turns cited public evidence into structured stack records and editorial drafts, validates the records against a shared schema, and keeps publication behind human review. The product and orchestration code remain private; the public data contract, evidence model, and company correction path live in [`thetechstack-data`](https://github.com/KyleBrierley/thetechstack-data).
 
-### Codex Practice Lab
+### [Agent Workflow Lab](https://github.com/KyleBrierley/agent-workflow-lab)
 
-Hands-on lab for AI coding-agent workflows, repository instructions, safety judgment, validation, and Git hygiene.
+A hands-on collection of reusable agent-engineering exercises covering repository instructions, context gathering, safety approvals, delegated work, diff review, validation loops, and Git hygiene.
 
-https://github.com/KyleBrierley/codex-practice-lab
+### [Support Operations Workbench](https://github.com/KyleBrierley/support-operations-workbench)
 
-### Legacy Customer-Data Integrations
+A Next.js workbench for AI-assisted deployment and support workflows: investigating tickets, scoping changes, validating behavior, and maintaining clear review boundaries.
 
-Older Tealium-era projects showing customer-data platform integration work across ecommerce, enrichment, campaign attribution, and marketing-system activation:
+### Enterprise Integration Work
 
-- https://github.com/KyleBrierley/integration-magento2
-- https://github.com/KyleBrierley/product_demo_gatsby
-- https://github.com/KyleBrierley/tealium-clearbit-enrichment
-- https://github.com/KyleBrierley/hubspot_constantcontact
+Historical Tealium-era projects that show the longer throughline behind my current work: connecting customer-data systems through APIs, turning messy implementation requirements into understandable workflows, and helping teams activate technical capabilities.
 
-These are historical prototypes and integrations, not current production packages. They are included because they show the throughline in my work: productizing messy enterprise workflows, connecting systems through APIs, and making technical capabilities understandable to customers and internal teams.
+- [Magento 2 integration](https://github.com/KyleBrierley/integration-magento2)
+- [Clearbit enrichment prototype](https://github.com/KyleBrierley/tealium-clearbit-enrichment)
+- [HubSpot and Constant Contact integration](https://github.com/KyleBrierley/hubspot_constantcontact)
+- [Gatsby product demo](https://github.com/KyleBrierley/product_demo_gatsby)
+
+These are historical prototypes and integrations, not current production packages.
 
 ## How I Work
 
-- Start with the workflow and the user/customer outcome.
-- Make assumptions explicit and keep human approval gates visible.
+- Start with the customer workflow and the outcome it needs to produce.
+- Make assumptions, evidence, and human approval gates visible.
 - Prefer small, testable systems over vague platform promises.
-- Document the tradeoffs, failure modes, and validation steps.
-- Use AI tools as collaborators while keeping ownership of judgment, scope, and quality.
+- Document tradeoffs, failure modes, and validation steps.
+- Use AI as a collaborator while retaining ownership of judgment, scope, and quality.
