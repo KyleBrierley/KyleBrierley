@@ -12,6 +12,10 @@ I built and operate TheTechStack, an evidence-backed research product documentin
 
 Its human-approved agent workflow turns cited public evidence into structured stack records and editorial drafts, validates the records against a shared schema, and keeps publication behind human review. The product and orchestration code remain private; the public data contract, evidence model, and company correction path live in [`thetechstack-data`](https://github.com/KyleBrierley/thetechstack-data).
 
+### [Agent Ops Skills](https://github.com/KyleBrierley/agent-ops-skills)
+
+Installable, provider-neutral skills for evidence-backed research, human-approved publishing, schema-validated records, and compact cross-agent context handoffs. Each package includes synthetic examples, explicit safety boundaries, and deterministic validation.
+
 ### [Agent Workflow Lab](https://github.com/KyleBrierley/agent-workflow-lab)
 
 A hands-on collection of reusable agent-engineering exercises covering repository instructions, context gathering, safety approvals, delegated work, diff review, validation loops, and Git hygiene.
